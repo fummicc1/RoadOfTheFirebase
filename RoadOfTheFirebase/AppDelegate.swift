@@ -5,15 +5,16 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    var isLogin: Bool = false
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure() // Firebaseの初期設定
         // すでにユーザーが存在するかをチェックする。
         if Auth.auth().currentUser != nil {
             // すでにログインしている場合。
-            window?.rootViewController?.performSegue(withIdentifier: "UserList", sender: nil) // ユーザー一覧に画面遷移を行う。
+            isLogin = true
         }
         return true
     }

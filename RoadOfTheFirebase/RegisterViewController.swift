@@ -16,6 +16,14 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         userNameTextField.delegate = self
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        // すでにログインしているかをチェックする。
+        if (UIApplication.shared.delegate as! AppDelegate).isLogin {
+            performSegue(withIdentifier: "UserList", sender: nil) // 画面遷移を行う。
+        }
+    }
+    
     // アカウントを登録するメソッド
     @IBAction func register() {
         // 19行目のif文でテキストフィールドに入力不備がないかをチェックしている。
