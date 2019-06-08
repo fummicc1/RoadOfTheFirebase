@@ -9,7 +9,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
+        FirebaseApp.configure() // Firebaseの初期設定
+        // すでにユーザーが存在するかをチェックする。
+        if Auth.auth().currentUser != nil {
+            // すでにログインしている場合。
+            window?.rootViewController?.performSegue(withIdentifier: "UserList", sender: nil) // ユーザー一覧に画面遷移を行う。
+        }
         return true
     }
 

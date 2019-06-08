@@ -50,7 +50,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                                 return
                             }
                             // エラーがないので、ユーザー一覧画面に遷移する。
-                            self.performSegue(withIdentifier: "", sender: nil)
+                            self.performSegue(withIdentifier: "UserList", sender: nil)
                     }
             }
         }
