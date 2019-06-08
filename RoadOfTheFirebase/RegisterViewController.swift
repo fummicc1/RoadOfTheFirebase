@@ -26,7 +26,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     
     // アカウントを登録するメソッド
     @IBAction func register() {
-        // 19行目のif文でテキストフィールドに入力不備がないかをチェックしている。
+        // if文でテキストフィールドに入力不備がないかをチェックしている。
         if emailTextField.text != "", passwordTextField.text != "", userNameTextField.text != "" {
             // 入力不備がないので、アカウントを登録する処理を呼ぶ。
             Auth.auth()
