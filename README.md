@@ -1,5 +1,5 @@
 # RoadOfTheFirebase
-Firebseでアカウント登録と、Firestoreのデータベースへの基本的な読み書きを行ったサンプルプロジェクト。
+FirebseAuthでアカウント登録と、Firestoreのデータベースへの基本的な読み書きを行ったサンプルプロジェクト。
 
 # FirebaseFirestoreの使いかた
 
