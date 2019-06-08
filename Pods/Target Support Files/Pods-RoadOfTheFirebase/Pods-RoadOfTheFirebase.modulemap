@@ -1,0 +1,6 @@
+framework module Pods_RoadOfTheFirebase {
+  umbrella header "Pods-RoadOfTheFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
