@@ -15,6 +15,7 @@
 		D35061EE22ABC6D70017E025 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35061ED22ABC6D70017E025 /* RegisterViewController.swift */; };
 		D35061F022ABC6E40017E025 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35061EF22ABC6E40017E025 /* UserListViewController.swift */; };
 		D35061F422ABCA260017E025 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35061F322ABCA260017E025 /* GoogleService-Info.plist */; };
+		D35061F622ABCEDD0017E025 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35061F522ABCEDD0017E025 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D35061ED22ABC6D70017E025 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D35061EF22ABC6E40017E025 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		D35061F322ABCA260017E025 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D35061F522ABCEDD0017E025 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D6481795A35E6BF6A6A125CE /* Pods_RoadOfTheFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadOfTheFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F566732591E25D99AE7DC0EC /* Pods-RoadOfTheFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadOfTheFirebase.release.xcconfig"; path = "Target Support Files/Pods-RoadOfTheFirebase/Pods-RoadOfTheFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 				D35061E722ABC6860017E025 /* Info.plist */,
 				D35061DB22ABC6850017E025 /* AppDelegate.swift */,
 				D35061ED22ABC6D70017E025 /* RegisterViewController.swift */,
+				D35061F522ABCEDD0017E025 /* TableViewCell.swift */,
 				D35061EF22ABC6E40017E025 /* UserListViewController.swift */,
 				D35061E222ABC6860017E025 /* Assets.xcassets */,
 				D35061E422ABC6860017E025 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35061DC22ABC6850017E025 /* AppDelegate.swift in Sources */,
+				D35061F622ABCEDD0017E025 /* TableViewCell.swift in Sources */,
 				D35061EE22ABC6D70017E025 /* RegisterViewController.swift in Sources */,
 				D35061F022ABC6E40017E025 /* UserListViewController.swift in Sources */,
 			);
