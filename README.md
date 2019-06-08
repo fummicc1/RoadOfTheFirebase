@@ -5,7 +5,7 @@ FirebseAuthでアカウント登録と、Firestoreのデータベースへの基
 
 ## 読みこみ
 
-- 一つのドキュメントを取得。
+- 「fummicc1」というキーであるドキュメントを取得。(単体取得)
 
 ```swift
 Firestore.firestore().collection("users").document("fummicc1").getDocument { (snapShot, error) in
@@ -13,7 +13,7 @@ Firestore.firestore().collection("users").document("fummicc1").getDocument { (sn
 }
 ```
 
-- usersコレクション内の全てのドキュメントを取得。
+- usersコレクション内の全てのドキュメントを取得。(全取得)
 ```swift
 Firestore.firestore().collection("users").getDocuments { (snapShots, error) in
     // 処理
